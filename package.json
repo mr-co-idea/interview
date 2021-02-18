@@ -1,0 +1,24 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "* 感觉面试前每天都处于水深火热状态\r * 共勉",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-co-idea/interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-co-idea/interview/issues"
+  },
+  "homepage": "https://github.com/mr-co-idea/interview#readme"
+}

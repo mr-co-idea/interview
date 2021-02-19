@@ -8,6 +8,7 @@
    * 检查referer字段
    * 同步表单CSRF校验
    * 双重cookie防御，X-CSRF-TOKEN
+   * SameSite=Strict
 
 ## XSS攻击 
 * Cross-site scripting —— 跨站脚本攻击

@@ -213,6 +213,7 @@
 | 302 | Found | 临时重定向，访问地址在Location指明，浏览器自动重定向 |
 | 304 | Not Modified | 资源未修改，重定向到缓存文件 |
 | 400 | Bad Request | 请求报文错误 |
+| 401 | Unauthorized | （未授权）鉴权失败 |
 | 403 | Forbidden | 服务器禁止访问资源 |
 | 404 | Not Found | 资源在服务器上不存在 |
 | 500 | Internal Server Error | 服务器异常 |

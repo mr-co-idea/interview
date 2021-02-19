@@ -1,6 +1,6 @@
 // 排序测试用例
 import { log } from './utils.js';
-import { insertSort, selectSort,quickSort} from '../code/sort/index.js'
+import { insertSort, selectSort,quickSort,shellSort} from '../code/sort/index.js'
 
 class App {
 	static createArr(len) {
@@ -21,11 +21,15 @@ log(...arr);
 // 插入排序
 // insertSort(arr);
 
+// 希尔排序
+shellSort(arr);
+
 // 选择排序
 // selectSort(arr);
 
 // 快排
-arr = quickSort(arr);
+// arr = quickSort(arr);
+
 
 
 log(...arr);

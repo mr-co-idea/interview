@@ -4,8 +4,8 @@ const debounce = (fn, wait) => {
 	let timer = null;
 
 	return function () {
-		if(timer){
-			clearInterval(timer);
+		if (timer) {
+			clearTimeout(timer);
 			timer = null;
 		}
 

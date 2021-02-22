@@ -43,13 +43,15 @@ function dynKnapsack(size, value, n, capacity) {
 			if (i == 0 || j == 0) {
 				arr[i][j] = 0;
 			}
-			else if (size[i] <= j) {
-				// arr[i][j] = 
+			else if (size[i - 1] <= j) {
+				arr[i][j] = max(value[i - 1] + arr[i - 1][j - size[i - 1]], arr[i - 1][j])
 			} else {
 				arr[i][j] = arr[i - 1][j];
 			}
 		}
 	}
+
+	return arr[n][capacity]
 }
 
 
@@ -66,3 +68,5 @@ function testOrigin(size, value, n, capacity, fn) {
 let test = curry(testOrigin)(size, value, n, capacity);
 
 // log(test(recurKnapsack)); 23
+
+log(dynKnapsack(size, value, n, capacity));

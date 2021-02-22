@@ -27,6 +27,7 @@
 
 ## 运行时
 1. 减少回流重绘
+   * 参考[](https://segmentfault.com/a/1190000017329980)
    * 通过替换class来操作样式
    * 让被操作dom脱离文档，或者使用documentFragment
 2. 事件委托

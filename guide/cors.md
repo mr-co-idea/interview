@@ -26,8 +26,9 @@
 4. Last-Event-ID
 5. Content-Type:
      1. application/x-www-form-urlencoded
-	 2. multipart/form-data
-	 3. text/plain
+	  2. multipart/form-data
+	  3. text/plain
+     
 #### 后台
 * head中设置Access-Control-Allow-Origin
     * \* / 域名
